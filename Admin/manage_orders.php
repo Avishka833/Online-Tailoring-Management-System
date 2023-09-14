@@ -1,7 +1,7 @@
 
 <?php include('partials/menu.php');?>
 
-    
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
     
        
     
@@ -111,8 +111,8 @@ if($count>0)
  <td><?php echo $customer_email; ?></td>
  <td><?php echo $customer_address; ?></td>
  <td>
-        <a href="<?php echo SITEURL; ?>admin/update_order.php?id=<?php echo $id;?>" class="btn-secondary">Update Orders</a>
-        <a href="<?php echo SITEURL; ?>admin/delete-order.php?id=<?php echo $id; ?>" class="btn-danger">Delete Order</a>      
+        <a href="<?php echo SITEURL; ?>admin/update_order.php?id=<?php echo $id;?>" class="btn-secondary">Update</a>
+        <a href="<?php echo SITEURL; ?>admin/delete-order.php?id=<?php echo $id; ?>" class="btn-danger">Delete</a>      
  </td>
 </tr>
 

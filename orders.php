@@ -16,7 +16,7 @@
     
 
 <link rel="stylesheet" href="css/Style.css">
-<link rel="stylesheet" href="css/Admin.css">
+<!-- <link rel="stylesheet" href="css/Admin.css"> -->
 
 
 

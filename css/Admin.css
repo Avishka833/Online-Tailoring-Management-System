@@ -63,6 +63,7 @@ table tr td{
 .btn-secondary{
     background-color: #7bed9f;
     padding: 1%;
+    width: auto;
     color:black;
     text-decoration: none;
     font-weight: bold;
@@ -148,4 +149,58 @@ table tr td{
     width: 50 auto;
     margin: 10% auto;
     padding: 5%;
+}
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .clothes-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .clothes-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .clothes-menu{
+        padding: 20% 0;
+    }
+
+    .clothes-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
 }
